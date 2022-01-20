@@ -37,70 +37,11 @@ $imgBanner = get_the_post_thumbnail_url();
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-4 pt-4">
-                        <div class="card-container-relative">
-                            <div class="card-container">
-                                <img src="<?=get_template_directory_uri()?>/assets/img/Ingeniería-Civil.jpg" alt="" class="card-container-img">
-                                <h2 class="card-container-text">Servicios contables</h2>
+                        <!-- Aquí agregar la nueva tarjeta -->
+                            <div class="card-content">
+
                             </div>
-                            <div class="card-container-flotante">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 pt-4">
-                        <div class="card-container-relative">
-                            <div class="card-container">
-                                <img src="https://www.senati.edu.pe/sites/default/files/styles/especialidades_500x299/public/2017/carrera/10/informatica-administrativa-500x299.jpg?itok=wR9KUJsf" alt="" class="card-container-img">
-                                <h2 class="card-container-text">Servicios contables</h2>
-                            </div>
-                            <div class="card-container-flotante">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 pt-4">
-                        <div class="card-container-relative">
-                            <div class="card-container">
-                                <img src="https://www.senati.edu.pe/sites/default/files/styles/especialidades_500x299/public/2017/carrera/10/informatica-administrativa-500x299.jpg?itok=wR9KUJsf" alt="" class="card-container-img">
-                                <h2 class="card-container-text">Servicios contables</h2>
-                            </div>
-                            <div class="card-container-flotante">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 pt-4">
-                        <div class="card-container-relative">
-                            <div class="card-container">
-                                <img src="https://www.senati.edu.pe/sites/default/files/styles/especialidades_500x299/public/2017/carrera/10/informatica-administrativa-500x299.jpg?itok=wR9KUJsf" alt="" class="card-container-img">
-                                <h2 class="card-container-text">Servicios contables</h2>
-                            </div>
-                            <div class="card-container-flotante">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 pt-4">
-                        <div class="card-container-relative">
-                            <div class="card-container">
-                                <img src="https://www.senati.edu.pe/sites/default/files/styles/especialidades_500x299/public/2017/carrera/10/informatica-administrativa-500x299.jpg?itok=wR9KUJsf" alt="" class="card-container-img">
-                                <h2 class="card-container-text">Servicios contables</h2>
-                            </div>
-                            <div class="card-container-flotante">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 pt-4">
-                        <div class="card-container-relative">
-                            <div class="card-container">
-                                <img src="https://www.senati.edu.pe/sites/default/files/styles/especialidades_500x299/public/2017/carrera/10/informatica-administrativa-500x299.jpg?itok=wR9KUJsf" alt="" class="card-container-img">
-                                <h2 class="card-container-text">Servicios contables</h2>
-                            </div>
-                            <div class="card-container-flotante">
-                                
-                            </div>
-                        </div>
+                        <!-- Aquí agregar la nueva tarjeta -->
                     </div>
                 </div>
             </div>
@@ -159,6 +100,13 @@ $imgBanner = get_the_post_thumbnail_url();
             </div>
         </div>
     </section>
+    <style>
+        .card-content {
+            width: 100%;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
 <?php endwhile;endif;?>
 </main>
 <?php get_footer();?>
