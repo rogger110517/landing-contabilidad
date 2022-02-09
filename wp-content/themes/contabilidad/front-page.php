@@ -38,7 +38,23 @@ $imgBanner = get_the_post_thumbnail_url();
                 <div class="row">
                     <div class="col-4 pt-4">
                         <!-- Aquí agregar la nueva tarjeta -->
-                            <div class="card-content">
+                            <div class="carta">
+
+                                <div class="carta-fondo">
+                                    <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
+                                </div>
+                                
+                                <div class="carta-contenido">
+                                    <div class="carta-presentacion">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="">
+                                        <h3>Contabilidad</h3>
+                                    </div>
+
+                                    <div class="carta-texto">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit assumenda quibusdam aperiam consequuntur modi nostrum, nesciunt eum temporibus sit amet impedit fuga.</p>
+                                    </div>
+                                    
+                                </div>
 
                             </div>
                         <!-- Aquí agregar la nueva tarjeta -->
@@ -100,12 +116,78 @@ $imgBanner = get_the_post_thumbnail_url();
             </div>
         </div>
     </section>
+
     <style>
-        .card-content {
-            width: 100%;
-            height: 300px;
-            background-color: red;
+        .carta{
+            position: relative;
+            width:100%;
+            border-radius:5px;
+            height:230px;
+            background:rgba(10, 105, 174, 0.37);
+            color: white;
+            text-align:center;
+            box-shadow: -1px 0px 6px 2px rgba(0, 0, 0, 0.15);
         }
+
+
+        .carta .carta-fondo{
+            z-index: -1000;
+            border: red 2px solid;
+        
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+           
+            width:100%;
+            height:100%;
+        }
+
+        .carta .carta-fondo > img{
+            /* object-fit:fill; */
+        
+            width:100%;
+            height:100%;
+        }
+
+
+        
+
+        /* .carta h3{
+            text-align: center;
+            line-height: 230px;
+            font-size:25px;
+        }
+
+        .carta .texto{
+            height:0px;
+            overflow: hidden;
+            padding: 0px 25px;
+        }
+
+        .carta:hover h3{
+            display:none;
+        } */
+
+        /* .carta:hover{
+            background:#3498DB;
+        } */
+
+        /* .carta:hover .texto{
+            position: relative;
+            transform:translatey(65%);
+            transition: transform 1s;
+            height: 100px;
+            border: red 2px solid;
+            text-align:justify;
+            color: white;
+        }
+
+        .carta:hover{
+            background:black;
+        } */
+
     </style>
 <?php endwhile;endif;?>
 </main>
