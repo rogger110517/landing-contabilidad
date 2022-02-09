@@ -32,7 +32,7 @@ $imgBanner = get_the_post_thumbnail_url();
             </div>
         </div>
     </section>
-    <section class="card">
+    <section class="card_container">
         <div class="container">
             <div class="container-fluid">
                 <div class="row">
@@ -43,10 +43,137 @@ $imgBanner = get_the_post_thumbnail_url();
                                 <div class="carta-fondo">
                                     <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
                                 </div>
-                                
+                                <div class="carta-titulo">
+                                    <h2>Titulo del card</h2>
+                                </div>
                                 <div class="carta-contenido">
                                     <div class="carta-presentacion">
-                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="" width="60px" height="auto">
+                                        <h3>Contabilidad</h3>
+                                    </div>
+
+                                    <div class="carta-texto">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit assumenda quibusdam aperiam consequuntur modi nostrum, nesciunt eum temporibus sit amet impedit fuga.</p>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        <!-- Aquí agregar la nueva tarjeta -->
+                    </div>
+                    <div class="col-4 pt-4">
+                        <!-- Aquí agregar la nueva tarjeta -->
+                            <div class="carta">
+
+                                <div class="carta-fondo">
+                                    <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
+                                </div>
+                                <div class="carta-titulo">
+                                    <h2>Titulo del card</h2>
+                                </div>
+                                <div class="carta-contenido">
+                                    <div class="carta-presentacion">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="" width="60px" height="auto">
+                                        <h3>Contabilidad</h3>
+                                    </div>
+
+                                    <div class="carta-texto">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit assumenda quibusdam aperiam consequuntur modi nostrum, nesciunt eum temporibus sit amet impedit fuga.</p>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        <!-- Aquí agregar la nueva tarjeta -->
+                    </div>
+                    <div class="col-4 pt-4">
+                        <!-- Aquí agregar la nueva tarjeta -->
+                            <div class="carta">
+
+                                <div class="carta-fondo">
+                                    <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
+                                </div>
+                                <div class="carta-titulo">
+                                    <h2>Titulo del card</h2>
+                                </div>
+                                <div class="carta-contenido">
+                                    <div class="carta-presentacion">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="" width="60px" height="auto">
+                                        <h3>Contabilidad</h3>
+                                    </div>
+
+                                    <div class="carta-texto">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit assumenda quibusdam aperiam consequuntur modi nostrum, nesciunt eum temporibus sit amet impedit fuga.</p>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        <!-- Aquí agregar la nueva tarjeta -->
+                    </div>
+                    <div class="col-4 pt-4">
+                        <!-- Aquí agregar la nueva tarjeta -->
+                            <div class="carta">
+
+                                <div class="carta-fondo">
+                                    <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
+                                </div>
+                                <div class="carta-titulo">
+                                    <h2>Titulo del card</h2>
+                                </div>
+                                <div class="carta-contenido">
+                                    <div class="carta-presentacion">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="" width="60px" height="auto">
+                                        <h3>Contabilidad</h3>
+                                    </div>
+
+                                    <div class="carta-texto">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit assumenda quibusdam aperiam consequuntur modi nostrum, nesciunt eum temporibus sit amet impedit fuga.</p>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        <!-- Aquí agregar la nueva tarjeta -->
+                    </div>
+                    <div class="col-4 pt-4">
+                        <!-- Aquí agregar la nueva tarjeta -->
+                            <div class="carta">
+
+                                <div class="carta-fondo">
+                                    <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
+                                </div>
+                                <div class="carta-titulo">
+                                    <h2>Titulo del card</h2>
+                                </div>
+                                <div class="carta-contenido">
+                                    <div class="carta-presentacion">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="" width="60px" height="auto">
+                                        <h3>Contabilidad</h3>
+                                    </div>
+
+                                    <div class="carta-texto">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit assumenda quibusdam aperiam consequuntur modi nostrum, nesciunt eum temporibus sit amet impedit fuga.</p>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        <!-- Aquí agregar la nueva tarjeta -->
+                    </div>
+                    <div class="col-4 pt-4">
+                        <!-- Aquí agregar la nueva tarjeta -->
+                            <div class="carta">
+
+                                <div class="carta-fondo">
+                                    <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/128-1611231850.webp" alt="">
+                                </div>
+                                <div class="carta-titulo">
+                                    <h2>Titulo del card</h2>
+                                </div>
+                                <div class="carta-contenido">
+                                    <div class="carta-presentacion">
+                                        <img src="https://www.astribsa.pe/admin/_uploads/imagenes/06072019213919-icon-contabilidad.png" alt="" width="60px" height="auto">
                                         <h3>Contabilidad</h3>
                                     </div>
 
@@ -67,12 +194,11 @@ $imgBanner = get_the_post_thumbnail_url();
         <div class="container">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <div>
-                            <h2 class="mb-4 container-information-title">NOSOTROS</h2>
-                            <p  class="mb-4 pb-2 container-information-paragraph">La práctica empresarial debe llevar una contabilidad en orden, no solo es una obligación que exige el Estado, sino una necesidad vital de las compañías para poder crecer. Bajo esta idea más el concepto de la asesoría externa, nuestro estudio contable le brinda la posibilidad de dirigir su negocio con un asesoramiento apropiado a las exigencias contables y tributarias que demandan la actual cultura empresarial.</p>
-                            <a href="" class="container-information-button">Mas información <span>></span></a>
-                        </div>
+                    <div class="col-6 text-center">
+                       <!-- Aqui va el quiene somos -->
+                    </div>
+                    <div class="col-6">
+                        <!-- Aquí va la imagen -->
                     </div>
                 </div>
             </div>
@@ -120,40 +246,66 @@ $imgBanner = get_the_post_thumbnail_url();
     <style>
         .carta{
             position: relative;
-            width:100%;
-            border-radius:5px;
-            height:230px;
-            background:rgba(10, 105, 174, 0.37);
+            width: 100%;
+            height: 220px;
+            background: rgba(0,106,179,0.7);
             color: white;
-            text-align:center;
-            box-shadow: -1px 0px 6px 2px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            box-shadow: -1px 0px 6px 2px rgb(0 0 0 / 15%);
+            border-radius: 10px;
         }
 
 
         .carta .carta-fondo{
             z-index: -1000;
-            border: red 2px solid;
-        
             position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
-           
-            width:100%;
-            height:100%;
+            width: 100%;
+            border-radius: 20px;
+            height: 100%;
         }
-
+        .carta .carta-titulo {
+            height: 220px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            transition: all ease 0.35s;
+        }
+        .carta:hover .carta-titulo {
+            opacity: 0;
+            transition: all ease 0.35s;
+        }
         .carta .carta-fondo > img{
-            /* object-fit:fill; */
-        
-            width:100%;
-            height:100%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
         }
 
-
-        
-
+        .carta .carta-contenido {
+            height: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            opacity: 0;
+            transition: all ease 0.35s;
+        }
+        .carta:hover .carta-contenido {
+            opacity: 1;
+            transition: all ease 0.35s;
+        }
+        .carta-presentacion h3 {
+            font-size: 24px;
+        }
+        .carta-texto p {
+            font-size: 15px;
+        }
         /* .carta h3{
             text-align: center;
             line-height: 230px;
