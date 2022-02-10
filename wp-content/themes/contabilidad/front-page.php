@@ -196,9 +196,45 @@ $imgBanner = get_the_post_thumbnail_url();
                 <div class="row">
                     <div class="col-6 text-center">
                        <!-- Aqui va el quiene somos -->
+                       <!-- hacer aqui angelo -->
+                       <div class="somos">
+                            <h1>QUIENES <span>SOMOS</span></h1>
+
+                            <div class="somos-contenido">
+
+                                <div class="somos-caja">
+                                    <img src="https://www.nicepng.com/png/full/882-8820253_business-owners-iconadmin2018-05-01t16-briefcase-icon-transparent.png" alt="">
+                                    <div class="somos-texto">
+                                        <h2>Visión</h2>
+                                        <p>Consolidarnos como una empresa líder en el sector de Asesoría Contable, Financiera y Tributaria con una trayectoria reconocida por nuestra capacidad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="somos-caja">
+                                    <img src="https://cdn.icon-icons.com/icons2/1392/PNG/512/consultant_96680.png" alt="">
+                                    <div class="somos-texto">
+                                        <h2>Misión</h2>
+                                        <p>Ofrecer a nuestros clientes u servicio eficaz, eficiente, responsable y de calidad buscando un alto grado de satisfacción.</p>
+                                    </div>
+                                </div>
+
+                                <div class="somos-caja">
+                                    <img src="https://cdn.icon-icons.com/icons2/2485/PNG/512/value_icon_150042.png" alt="">
+                                    <div class="somos-texto">
+                                        <h2>Valores</h2>
+                                        <p>Profesionalismo que nos identifican como miembros de una profesión con el compromiso para servir a los intereses de los clientes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                       </div>
                     </div>
                     <div class="col-6">
                         <!-- Aquí va la imagen -->
+                        <div class="imagen">
+                            <img src="http://www.slcontadoresperu.com/images/home-4-946x689.jpg" alt="">
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -306,40 +342,94 @@ $imgBanner = get_the_post_thumbnail_url();
         .carta-texto p {
             font-size: 15px;
         }
-        /* .carta h3{
-            text-align: center;
-            line-height: 230px;
+        
+
+        /* Quienes somos */
+
+        .col-6{
+             border:red 2px solid;
+            height:600px;
+            
+        }
+
+        .text-center{
+            background: #383838;
+        }
+
+        .somos{
+            /* border : red 2px solid; */
+            
+            padding: 0px 35px;
+            width:100%;
+            height:100%;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            gap:32px
+        }
+
+        .somos h1{
+            color: #eb5d32;
+            font-size:40px;
+            text-align:left;
+        }
+
+        .somos h1 span{
+            padding-left:20px;
+            font-weight:350;
+        }
+
+        .somos .somos-contenido{
+            /* border:red 2px solid; */
+            display:flex;
+            flex-direction:column;
+            gap:30px;
+        }
+
+        .somos .somos-contenido .somos-caja{
+            display:flex;
+            gap:30px;
+        }
+
+        .somos .somos-contenido .somos-caja img{
+            /* border: red 2px solid; */
+            width:15%;
+            height:70%;
+            object-fit:contain;
+        }
+
+        .somos .somos-contenido .somos-caja .somos-texto h2{
+            /* border:red 2px solid; */
+            text-align:left;
             font-size:25px;
+            color:white;
+            padding-bottom:20px;
         }
 
-        .carta .texto{
-            height:0px;
-            overflow: hidden;
-            padding: 0px 25px;
-        }
-
-        .carta:hover h3{
-            display:none;
-        } */
-
-        /* .carta:hover{
-            background:#3498DB;
-        } */
-
-        /* .carta:hover .texto{
-            position: relative;
-            transform:translatey(65%);
-            transition: transform 1s;
-            height: 100px;
-            border: red 2px solid;
+        .somos .somos-contenido .somos-caja .somos-texto p{
             text-align:justify;
-            color: white;
+            color: rgba(255, 255, 255, 0.5);
         }
 
-        .carta:hover{
-            background:black;
-        } */
+        
 
+        
+
+        /* imagen */
+        .iamgen{
+            position: relative;
+        }
+
+        .imagen img{
+            position: absolute;
+            object-fit:cover;
+            right:0px;
+            left:0px;
+            width:100%;
+            height:100%
+        }
+
+        
     </style>
 <?php endwhile;endif;?>
 </main>
