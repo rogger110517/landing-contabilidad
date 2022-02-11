@@ -254,16 +254,71 @@ $imgBanner = get_the_post_thumbnail_url();
                 <div class="row">
                     <div class="col-6">
                         <!-- card Nuestra Propuesta hacer Angelo -->
+                        <div class="propuestas">
+                            <div class="propuestas-imagen">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Font_Awesome_5_regular_chart-bar.svg" alt="">
+                            </div>
+                            <div class="propuestas-contenido">
+                                <h1>Constitución de empresas</h1>
+                                <p>Nuestra empresa de asesoría contable le ayudará a formalizar su 
+                                    negocio. Tanto dándole el asesoramiento legal que necesite como 
+                                    en la búsqueda y reservación del nombre, la elaboración del 
+                                    pacto social, la presentación de los documentos ante SUNARP, 
+                                    gestión del RUC, etc.</p>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="col-6">
-                        
+                        <div class="propuestas">
+                            <div class="propuestas-imagen">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Font_Awesome_5_solid_chart-pie.svg" alt="">
+                            </div>
+                            <div class="propuestas-contenido">
+                                <h1>Constitución de empresas</h1>
+                                <p>Nuestra empresa de asesoría contable le ayudará a formalizar su 
+                                    negocio. Tanto dándole el asesoramiento legal que necesite como 
+                                    en la búsqueda y reservación del nombre, la elaboración del 
+                                    pacto social, la presentación de los documentos ante SUNARP, 
+                                    gestión del RUC, etc.</p>
+                            </div>
+                            
+                        </div>
                     </div>
+
                     <div class="col-6">
-                        
+                        <div class="propuestas">
+                            <div class="propuestas-imagen">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Font_Awesome_5_regular_money-bill-alt.svg" alt="">
+                            </div>
+                            <div class="propuestas-contenido">
+                                <h1>Constitución de empresas</h1>
+                                <p>Nuestra empresa de asesoría contable le ayudará a formalizar su 
+                                    negocio. Tanto dándole el asesoramiento legal que necesite como 
+                                    en la búsqueda y reservación del nombre, la elaboración del 
+                                    pacto social, la presentación de los documentos ante SUNARP, 
+                                    gestión del RUC, etc.</p>
+                            </div>
+                            
+                        </div>
                     </div>
+
                     <div class="col-6">
-                        
+                        <div class="propuestas">
+                            <div class="propuestas-imagen">
+                                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/archive-512.png" alt="">
+                            </div>
+                            <div class="propuestas-contenido">
+                                <h1>Constitución de empresas</h1>
+                                <p>Nuestra empresa de asesoría contable le ayudará a formalizar su 
+                                    negocio. Tanto dándole el asesoramiento legal que necesite como 
+                                    en la búsqueda y reservación del nombre, la elaboración del 
+                                    pacto social, la presentación de los documentos ante SUNARP, 
+                                    gestión del RUC, etc.</p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -440,7 +495,45 @@ $imgBanner = get_the_post_thumbnail_url();
             height:100%
         }
 
-        
+
+        /* Propuestas */
+        .propuestas{
+            /* border: red 2px solid; */
+            padding: 50px 35px;
+        }
+
+        .propuestas .propuestas-imagen{
+            /* border: red 2px solid; */
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:120px;
+            height:120px;
+            text-align:center;
+            border:white 2px solid;
+            border-radius:50%;
+            margin:auto;
+            margin-bottom:30px;
+        }
+
+        .propuestas .propuestas-imagen img{
+            height:60%;
+            width:60%;
+        }
+
+        .propuestas .propuestas-contenido{
+            color:white;
+            text-align:center;
+        }
+
+        .propuestas .propuestas-contenido h1{
+            font-size:26px;
+            padding-bottom:18px;
+        }
+
+        .propuestas .propuestas-contenido p{
+            font-size:17px;
+        }
     </style>
 <?php endwhile;endif;?>
 </main>
