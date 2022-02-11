@@ -191,10 +191,10 @@ $imgBanner = get_the_post_thumbnail_url();
         </div>
     </section>
     <section class="container-information">
-        <div class="container">
+        <div class="">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 text-center">
+                    <div class="col-6 text-center somos-background">
                        <!-- Aqui va el quiene somos -->
                        <!-- hacer aqui angelo -->
                        <div class="somos">
@@ -211,7 +211,7 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                                 <div class="somos-caja">
-                                    <img src="https://cdn.icon-icons.com/icons2/1392/PNG/512/consultant_96680.png" alt="">
+                                    <img src="https://www.nicepng.com/png/full/882-8820253_business-owners-iconadmin2018-05-01t16-briefcase-icon-transparent.png" alt="">
                                     <div class="somos-texto">
                                         <h2>Misión</h2>
                                         <p>Ofrecer a nuestros clientes u servicio eficaz, eficiente, responsable y de calidad buscando un alto grado de satisfacción.</p>
@@ -219,7 +219,7 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                                 <div class="somos-caja">
-                                    <img src="https://cdn.icon-icons.com/icons2/2485/PNG/512/value_icon_150042.png" alt="">
+                                    <img src="https://www.nicepng.com/png/full/882-8820253_business-owners-iconadmin2018-05-01t16-briefcase-icon-transparent.png" alt="">
                                     <div class="somos-texto">
                                         <h2>Valores</h2>
                                         <p>Profesionalismo que nos identifican como miembros de una profesión con el compromiso para servir a los intereses de los clientes.</p>
@@ -248,8 +248,21 @@ $imgBanner = get_the_post_thumbnail_url();
                         <div>
                             <h2 class="mb-4 container-information-title">NUESTRAS PROPUESTAS</h2>
                             <p  class="mb-4 pb-2 container-information-paragraph">Somos un estudio contable en Lima, ofrecemos asesoría y contabilidad externa orientado a todo tipo de empresas: unipersonales, mype, sociedades, asociaciones sin fines de lucro y fundaciones, brindado diferentes tipos de soluciones</p>
-                            <a href="" class="container-information-button">Mas información <span>></span></a>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <!-- card Nuestra Propuesta hacer Angelo -->
+                    </div>
+                    <div class="col-6">
+                        
+                    </div>
+                    <div class="col-6">
+                        
+                    </div>
+                    <div class="col-6">
+                        
                     </div>
                 </div>
             </div>
@@ -347,19 +360,14 @@ $imgBanner = get_the_post_thumbnail_url();
         /* Quienes somos */
 
         .col-6{
-             border:red 2px solid;
-            height:600px;
+             /* border:red 2px solid;
+            height:600px; */
             
         }
-
-        .text-center{
-            background: #383838;
-        }
-
         .somos{
             /* border : red 2px solid; */
             
-            padding: 0px 35px;
+            padding: 70px 35px;
             width:100%;
             height:100%;
             display:flex;
@@ -372,13 +380,13 @@ $imgBanner = get_the_post_thumbnail_url();
             color: #eb5d32;
             font-size:40px;
             text-align:left;
+            color: #ffffff;
         }
 
-        .somos h1 span{
-            padding-left:20px;
-            font-weight:350;
+        
+        .somos-background {
+            background: rgba(0,106,179,0.7);
         }
-
         .somos .somos-contenido{
             /* border:red 2px solid; */
             display:flex;
@@ -389,6 +397,7 @@ $imgBanner = get_the_post_thumbnail_url();
         .somos .somos-contenido .somos-caja{
             display:flex;
             gap:30px;
+            width: 100%;
         }
 
         .somos .somos-contenido .somos-caja img{
@@ -396,10 +405,12 @@ $imgBanner = get_the_post_thumbnail_url();
             width:15%;
             height:70%;
             object-fit:contain;
+            height: auto;
         }
-
+        .somos .somos-contenido .somos-caja .somos-texto {
+            width: 85%;
+        }
         .somos .somos-contenido .somos-caja .somos-texto h2{
-            /* border:red 2px solid; */
             text-align:left;
             font-size:25px;
             color:white;
