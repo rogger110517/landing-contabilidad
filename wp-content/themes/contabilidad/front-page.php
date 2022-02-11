@@ -6,14 +6,11 @@ $imgBanner = get_the_post_thumbnail_url();
     <section class="hero-banner" style="background-image: url('<?php echo $imgBanner ?>');">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    
-                    <div class="hero-banner-title">
-                        <h2 class="hero-title-page"><?php the_title(); ?></h2>
-                        <div class="pt-3">
-                            <a href="" class="hero-banner-contact">Contactános</a>
-                        </div>
-                    </div>
+                <div class="col-6">
+                    <!-- Aquí va en el home bienvenido empresario -- Angelo -->
+                </div>
+                <div class="col-6">
+
                 </div>
             </div>
         </div>
@@ -37,7 +34,7 @@ $imgBanner = get_the_post_thumbnail_url();
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-4 pt-4">
-                        <!-- Aquí agregar la nueva tarjeta -->
+                       
                             <div class="carta">
 
                                 <div class="carta-fondo">
@@ -59,10 +56,10 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                             </div>
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                     </div>
                     <div class="col-4 pt-4">
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                             <div class="carta">
 
                                 <div class="carta-fondo">
@@ -84,10 +81,10 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                             </div>
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                     </div>
                     <div class="col-4 pt-4">
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                             <div class="carta">
 
                                 <div class="carta-fondo">
@@ -109,10 +106,10 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                             </div>
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                     </div>
                     <div class="col-4 pt-4">
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                             <div class="carta">
 
                                 <div class="carta-fondo">
@@ -134,10 +131,10 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                             </div>
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                     </div>
                     <div class="col-4 pt-4">
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                             <div class="carta">
 
                                 <div class="carta-fondo">
@@ -159,10 +156,10 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                             </div>
-                        <!-- Aquí agregar la nueva tarjeta -->
+                      
                     </div>
                     <div class="col-4 pt-4">
-                        <!-- Aquí agregar la nueva tarjeta -->
+                        
                             <div class="carta">
 
                                 <div class="carta-fondo">
@@ -184,7 +181,7 @@ $imgBanner = get_the_post_thumbnail_url();
                                 </div>
 
                             </div>
-                        <!-- Aquí agregar la nueva tarjeta -->
+                        
                     </div>
                 </div>
             </div>
@@ -195,8 +192,7 @@ $imgBanner = get_the_post_thumbnail_url();
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-6 text-center somos-background">
-                       <!-- Aqui va el quiene somos -->
-                       <!-- hacer aqui angelo -->
+                     
                        <div class="somos">
                             <h1>QUIENES <span>SOMOS</span></h1>
 
@@ -230,7 +226,7 @@ $imgBanner = get_the_post_thumbnail_url();
                        </div>
                     </div>
                     <div class="col-6">
-                        <!-- Aquí va la imagen -->
+                        
                         <div class="imagen">
                             <img src="http://www.slcontadoresperu.com/images/home-4-946x689.jpg" alt="">
                         </div>
@@ -253,7 +249,7 @@ $imgBanner = get_the_post_thumbnail_url();
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <!-- card Nuestra Propuesta hacer Angelo -->
+                        
                         <div class="propuestas">
                             <div class="propuestas-imagen">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Font_Awesome_5_regular_chart-bar.svg" alt="">
@@ -333,9 +329,7 @@ $imgBanner = get_the_post_thumbnail_url();
                         </div>
                     </div>
                     <div class="col-7">
-                        <div>
-                            <img class="contact_img" src="<?=get_template_directory_uri()?>/assets/img/contact-form.png" alt="">
-                        </div>
+                        <!-- Agregar el formulario el contenido -- Angelo -->
                     </div>
                     <div class="col-5">
                         <div class="contact_content">
@@ -499,7 +493,7 @@ $imgBanner = get_the_post_thumbnail_url();
         /* Propuestas */
         .propuestas{
             /* border: red 2px solid; */
-            padding: 50px 35px;
+            padding: 50px;
         }
 
         .propuestas .propuestas-imagen{
@@ -510,7 +504,7 @@ $imgBanner = get_the_post_thumbnail_url();
             width:120px;
             height:120px;
             text-align:center;
-            border:white 2px solid;
+            border: 2px solid #000000;
             border-radius:50%;
             margin:auto;
             margin-bottom:30px;
@@ -529,10 +523,12 @@ $imgBanner = get_the_post_thumbnail_url();
         .propuestas .propuestas-contenido h1{
             font-size:26px;
             padding-bottom:18px;
+            color: #000000;
         }
 
         .propuestas .propuestas-contenido p{
             font-size:17px;
+            color: #000000;
         }
     </style>
 <?php endwhile;endif;?>

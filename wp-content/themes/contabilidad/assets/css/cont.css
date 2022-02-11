@@ -144,6 +144,8 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 .hero-banner .hero-banner-contact {
   font-size: 20px;
@@ -165,10 +167,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-image: linear-gradient(180deg, rgba(27, 26, 26, 0.3) 0%, rgba(27, 26, 26, 0) 34%, rgba(27, 26, 26, 0) 82%, rgba(27, 26, 26, 0) 100%);
   background-color: rgba(27, 26, 26, 0.5);
 }
-.hero-banner .hero-banner-title {
-  text-align: center;
-  padding: 215px 0px;
-}
+
 .hero-banner .hero-banner-title .hero-title-page {
   text-transform: uppercase;
   color: #ffffff;
@@ -291,12 +290,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .container-information-2 {
-  padding: 60px 0px;
+  padding: 60px 0px 0px;
   background-color: #F7F7F7;
 }
 .container-information-2 .container-information-title {
-  color: #50449A;
-  font-size: 25px;
+  color: #000000;
+  font-size: 40px;
   font-weight: 700;
   position: relative;
   display: flex;
@@ -309,11 +308,11 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   height: 3px;
   width: 100px;
-  background: #F2915C;
-  bottom: 0px;
+  background: #000000;
+  bottom: -10px;
 }
 .container-information-2 .container-information-paragraph {
-  color: #81808E;
+  color: #000000;
   font-size: 18px;
   line-height: 24px;
 }
@@ -340,11 +339,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 .container-information-3 {
   padding: 60px 0px;
-  background-color: #50449A;
+  background-color: #ffffff;
 }
 .container-information-3 .container-information-title {
-  color: #F2915C;
-  font-size: 25px;
+  color: #000000;
+  font-size: 40px;
   font-weight: 700;
   position: relative;
   display: flex;
@@ -357,11 +356,11 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   height: 3px;
   width: 100px;
-  background: #F2915C;
-  bottom: 0px;
+  background: #000000;
+  bottom: -10px;
 }
 .container-information-3 .container-information-paragraph {
-  color: #ffffff;
+  color: #000000;
   font-size: 18px;
   line-height: 24px;
 }
@@ -464,14 +463,14 @@ h1, h2, h3, h4, h5, h6, p {
 /* Contact */
 .contact {
   padding: 60px 0px;
-  background: #333333;
+  background: rgba(0,106,179,0.7);
 }
 .contact .contact_img {
   width: 100%;
 }
 .contact .contact_title {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 700;
   position: relative;
   display: flex;
@@ -485,7 +484,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 3px;
   width: 70px;
   background: #ffffff;
-  bottom: 0px;
+  bottom: -10px;
 }
 .contact .wpcf7-form .wpcf7-form-control {
   width: 100%;
