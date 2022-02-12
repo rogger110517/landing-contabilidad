@@ -6,8 +6,18 @@ $imgBanner = get_the_post_thumbnail_url();
     <section class="hero-banner" style="background-image: url('<?php echo $imgBanner ?>');">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-6" >
                     <!-- Aquí va en el home bienvenido empresario -- Angelo -->
+
+                    <div class="bienvenidos">
+                        <h4>Profesionales A Tu Servicio</h4>
+                        <div class="bienvenidos-contenido">
+                            <h1>Bienvenido Empresario Del Perú</h1>
+                            <p>Alan Moreano - Contador Fundador</p>
+                            <div class="bienvenidos-raya"></div>
+                            <a href="">Haz una Consulta <i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6">
 
@@ -330,6 +340,20 @@ $imgBanner = get_the_post_thumbnail_url();
                     </div>
                     <div class="col-7">
                         <!-- Agregar el formulario el contenido -- Angelo -->
+                        <div class="contacto">
+                    
+                            <div class="contacto-contenido">
+                                <h3>Converse Con Un Asesor Empresarial</h3>
+                                <p>Nos especializamos en brindar soluciones efectivas y prácticas en la gestión de su negocio, brindando un Servicio Integral en temas Financieros, Contables, Administrativos, Tributarios, Laboral y Constitución de empresas.
+                                    Contacte con un asesor empresarial ahora.</p>
+                            </div>
+
+                            <div class="contacto-direccion">
+                                <h4>Nos pueden encontrar en:</h4>
+                                <p><i class="fas fa-mobile-alt"></i>+51 942 991 111</p>
+                                <p><i class="far fa-envelope-open"></i>consulta@aiasesorescontables.com</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-5">
                         <div class="contact_content">
@@ -530,6 +554,97 @@ $imgBanner = get_the_post_thumbnail_url();
             font-size:17px;
             color: #000000;
         }
+
+
+        /* Bienvenidos */
+        .bienvenidos{
+            /* border: red 2px solid; */
+            color:#fff;
+        }
+
+        .bienvenidos > h4{
+            font-size:20px;
+            color: #CACB04;
+            font-weight:700;
+            padding-bottom:50px;
+            border:red 2px solid;
+        }
+
+        .bienvenidos .bienvenidos-contenido > h1{
+            font-size:80px;
+            font-weight:800;
+            padding-bottom:20px;
+        }
+
+        .bienvenidos .bienvenidos-contenido p{
+            font-size:18px;
+            padding-bottom:40px;
+        }
+
+        .bienvenidos .bienvenidos-contenido .bienvenidos-raya{
+            width:60px;
+            height:5px;
+            background:#0C6000;
+            margin-bottom:40px;
+        }
+
+        .bienvenidos .bienvenidos-contenido a{
+            display:inline-block;
+            width:230px;
+            background:#25D366;
+            font-size:20px;
+            color:white;
+            text-align:center;
+            padding: 20px 0px;
+            border-radius:8px;
+            transition:all 1s;
+        }
+
+        .bienvenidos .bienvenidos-contenido a i{
+            padding-left:10px;
+            font-size:22px;
+        }
+
+        .bienvenidos .bienvenidos-contenido a:hover{
+            background: #0c6000;
+            
+        }
+
+
+        /* Contacto */
+        .contacto{
+            padding: 60px 0px;
+            border: red 2px solid;
+            color:#fff;
+        }
+
+        .contacto .contacto-contenido > h3{
+            font-size: 26px;
+            font-weight:700;
+            padding-bottom: 25px;
+        }
+    
+        .contacto .contacto-contenido > p{
+            font-size: 18px;
+            padding-bottom: 25px;
+        }
+
+        .contacto .contacto-direccion > h4{
+            font-size: 18px;
+            font-weight:700;
+            padding-bottom: 10px;
+        }
+
+        .contacto .contacto-direccion > p{
+            font-size:18px;
+            padding-top:15px;
+        }
+
+        .contacto .contacto-direccion > p i{
+            padding-right:10px;
+            
+        }
+
     </style>
 <?php endwhile;endif;?>
 </main>
